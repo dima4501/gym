@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+  <script>
+      function check()
+      {
+         user=document.getElementById("username").value;
+         pass=document.getElementById("password").value;
+         if (user.match("Mohamad") && pass.match("asdf"))
+      {
+          document.write("Hello<br>");
+          document.write(user);
+          alert("Hello")
+          location="index.html"
+        }
+        else
+        {
+          document.write("Error<br>");
+          alert("ERROR User Name or Password")
+        }
+      }
+    </script>
+</head>
+<style>
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color:#f7c672;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #442d04;
+}
+
+.active {
+  background-color: #FFC156;
+}
+
+</style>
+</head>
+
+<body>
+    <img src="image/logo.jpg" background image="image/logo.jpg" height="10px" width="30px" ali="right" bacground image top="top left"> 
+    <div style="background-color:black" >
+      <img src="image/logo.jpg" background image="image/logo.jpg" height="10px" width="30px" ali="right" bacground image top=""> 
+      <img src="image/logo.jpg" background-image-top="top left" background image="image/logo.jpg" height="30px" width="50px" ali="right">
+
+
+<ul>
+    <li><a class="index.html">Home</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="packages.html">Packages</a></li>
+    <li><a href="active">Login</a></li>
+    <li><a href="Register.html">Register</a></li>
+    <li><a href="rating.html">Rating</a></li>
+</ul>
+  <div style="padding:20px;margin-top:100px;background-color:#f7d9a6;height:1500px;">
+
+    <h1>Login</h1>
+   
+<tr> <td> Enter User Name<td><input id="username"></td><p>
+<tr> <td> Enter Password <td><input type="password" id="password"></td><p>
+<tr> <td> </td>
+<tr ali="right"> <td> <button onclick="check()">Login</button>
+</div>
+</form>
+</body>
+</html>
+
+
+     
+
+     
+
+     
